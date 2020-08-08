@@ -1,0 +1,77 @@
+/*------------------------------------------------------------------
+    About the Developer section
+-------------------------------------------------------------------*/
+
+.bio {
+    background: #f2f3f5;
+    box-shadow: 0 5px 14px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    width: 100%;
+    height: 500px;
+}
+
+
+.topDemoContainer {
+    width: 100%;
+    height: 1000px;
+}
+
+.readMore {
+    margin-top: 5px;
+    margin-left: 12px;
+    margin-right: 12px;
+    
+}
+
+.formDiv {
+    background: #f2f3f5;
+    box-shadow: 0 5px 14px rgba(0, 0, 0, 0.1);  
+}
+
+.namelabel {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 30px;
+}
+
+.gmaillabel {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+.ideainput {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.submitbutton {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+.submittext {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+.submitidea {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none outside none;
+    padding-left: 0;
+    margin-bottom:0;
+}
+li {
+    display: block;
+    float: left;
+    margin-right: 6px;
+    cursor:pointer;
+}
+

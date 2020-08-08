@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+<html lang="en">
+
+<link rel="shortcut icon" href="images/tab-logo.jpg" type="image/x-icon" />
+
+<!-- Basic -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- Mobile Metas -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Site Metas -->
+<title>Contact - ticerapps</title>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- Site CSS -->
+<link rel="stylesheet" href="style.css">
+<!-- ALL VERSION CSS -->
+<link rel="stylesheet" href="css/versions.css">
+<!-- Responsive CSS -->
+<link rel="stylesheet" href="css/responsive.css">
+<!-- Custom CSS -->
+<link rel="stylesheet" href="css/custom.css">
+<link rel="stylesheet" href="css/contact.css">
+
+<head>
+    <link href="http://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+
+    <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <!-- include Cycle plugin -->
+    <script type="text/javascript" src="http://malsup.github.com/jquery.cycle.all.js"></script>
+    <script src="js/contact.js"></script>
+    <style>
+        img[alt="www.000webhost.com"] {
+            display: none;
+        }
+    </style>
+</head>
+
+<body class="host_version">
+
+
+
+    <!-- Start header -->
+    <header class="top-navbar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="home.html">
+                    <img src="images/website-logo.png" alt="" />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-host"
+                    aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbars-host">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="apps.html">Apps</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="contact.html">Contact</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- End header -->
+
+
+    <div id="pricing" class="section lb" style="overflow: visible;">
+        <div class="container">
+            <br><br><br><br>
+
+            <!--create contact form-->
+            <div id="contact-us" class="contact-us">
+                <div class="container-contact">
+                    <div style="text-align:center">
+                        <br>
+                        <h2>Contact Us</h2>
+                        <p>Leave a suggestion for an app idea or report bugs and issues:</p>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <img src="images/charlotteLogo2.jpg" id="contact-image" class="contact-image">
+                        </div>
+                        <div class="column" style="margin: auto">
+                            <main>
+                                <form action="contactform.php" method="post" enctype="text/plain">
+                                    <label for="name">Name</label>
+                                    <input type="text" name="name" placeholder="Full name.." maxlength="20" required>
+
+                                    <label for="mail">Email</label>
+                                    <input type="text" name="mail" placeholder="Your email.."
+                                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+
+                                    <label for="subject">Subject</label>
+                                    <input type="text" name="subject" maxlength="25" placeholder="Subject..">
+
+                                    <label for="message">Message</label>
+                                    <input type="text" name="message" placeholder="Message.." style="height:170px"
+                                        maxlength="150" required></textarea>
+                                    <input type="submit" value="submit" name="submit"></button>
+                                </form>
+                            </main>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+
+            <hr style="visibility: hidden; height: 550px; width: 100%;">
+        </div><!-- end container -->
+        <br>
+        <!--div for part c-->
+    </div><!-- end section -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Contact Details</h3>
+                        </div>
+                        <ul class="footer-links">
+                            <li>btrorapps@gmail.com</li>
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+
+
+
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Information Link</h3>
+                        </div>
+                        <ul class="footer-links">
+                            <li><a href="home.html">Home</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="apps.html">Apps</a></li>
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Apps</h3>
+                        </div>
+                        <ul class="footer-links">
+                            <li><a href="https://play.google.com/store/apps/details?id=com.brandon.lengthconverter">Length
+                                    Converter</a></li>
+                            <li><a
+                                    href="https://play.google.com/store/apps/details?id=com.brandon.apportionmentcalculator">Apportionment
+                                    Calculator</a></li>
+                            <li><a
+                                    href="https://play.google.com/store/apps/details?id=com.brandon.digitalstorageconverter">Digital
+                                    Storage Converter</a></li>
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </footer><!-- end footer -->
+
+    <div class="copyrights">
+        <div class="container">
+            <div class="footer-distributed">
+                <div class="footer-left">
+                    <p class="footer-company-name">All Rights Reserved. &copy; 2020 <a
+                            href="https://play.google.com/store/search?q=ticerapps">ticerapps</a></p>
+                </div>
+            </div>
+        </div><!-- end container -->
+    </div><!-- end copyrights -->
+
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+    <script src="js/all.js"></script>
+
+
+</body>
+
+</html>
